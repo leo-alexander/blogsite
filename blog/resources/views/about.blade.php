@@ -79,10 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to Citified
+                    About This Blog
                 </div>
                 <p>
-                  A blog exploring upcoming and proposed Urban Developments around Auckland
+                  This blog is an exercise in PHP
                 </p>
 
                 <div class="links">
