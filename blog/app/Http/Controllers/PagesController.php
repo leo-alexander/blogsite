@@ -11,7 +11,6 @@ class PagesController extends Controller {
   public function getAbout() {
     $first = 'Leo';
     $last = 'Mclay';
-
     $fullname = $first . " " . $last;
     $email = "leo.mclay@gmail.com";
     $data['email'] = $email;
