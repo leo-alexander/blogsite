@@ -79,12 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Contact
+                    Welcome to Citified
                 </div>
                 <p>
-                  Get in touch if you have any feedback!
+                  A blog exploring upcoming and proposed Urban Developments around Auckland
                 </p>
-
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
