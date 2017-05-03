@@ -1,4 +1,4 @@
-@extends('main')
+@extends('layouts.app')
 
 @section('title', '| Create New Post')
 
@@ -10,7 +10,7 @@
         Create New Post
       </h1>
       <hr>
-      
+
       {!! Form::open(array('route' => 'posts.store')) !!}
         {{ Form::label('title', 'Title:') }}
         {{ Form::text('title', null, array('class' => 'form-control')) }}
