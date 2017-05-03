@@ -4,6 +4,8 @@
 
 @section('content')
 
+@if (Auth::check())
+
   <div class='row'>
     <div class='col-md-8 col-md-offest-2'>
       <h1>
@@ -23,5 +25,11 @@
 
     </div>
   </div>
+
+  @else
+
+  <h1>Not authorised</h1>
+
+  @endif
 
 @endsection
