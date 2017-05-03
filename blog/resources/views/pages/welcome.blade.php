@@ -20,7 +20,7 @@
 
           <div class='post'>
             <h3>{{ $post->title }}</h3>
-            <p>{{ substr($post->body, 0, 50) }} {{ strlen($post->body) > 50 ? "..." : ""}}</p>
+            <p>{{ substr($post->body, 0, 300) }} {{ strlen($post->body) > 50 ? "..." : ""}}</p>
             <a href='{{ route('posts.show', $post->id) }}' class='btn btn-primary'>Read More</a>
             <hr/>
           </div>
