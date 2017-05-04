@@ -17,21 +17,12 @@
     <div class='col-md-4'>
       <div class='well'>
         <dl class='dl-horizontal'>
-          <dt>
-            Created:
-          </dt>
-          <dd>
-            {{ $post->created_at }}
-          </dd>
+          <dt>Created:</dt>
+          <dd>{{ date('M j, Y', strtotime($post->created_at)) }}</dd>
         </dl>
-
         <dl class='dl-horizontal'>
-          <dt>
-            Last Updated:
-          </dt>
-          <dd>
-            {{ $post->updated_at }}
-          </dd>
+          <dt>Last Updated:</dt>
+          <dd>{{ date('M j, Y', strtotime($post->updated_at)) }}</dd>
         </dl>
         <hr>
 
@@ -49,7 +40,7 @@
               {!! Form::close() !!}
             </div>
           </div>
-          
+
           @endif
 
       </div>

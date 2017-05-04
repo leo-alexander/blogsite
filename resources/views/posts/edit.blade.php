@@ -16,7 +16,6 @@
       {{ Form::label('body', 'Body:') }}
       {{ Form::textarea('body', null, ['class' => 'form-control']) }}
       <hr>
-
     </div>
     <div class='col-md-4'>
       <div class='well'>
@@ -26,7 +25,6 @@
             {{ $post->created_at }}
           </dd>
         </dl>
-
         <dl class='dl-horizontal'>
           <dt>
             Last Updated:
@@ -44,9 +42,7 @@
             {{ Form::submit('Save Changes', ['class' => 'btn btn-success btn-block']) }}
           </div>
         </div>
-
       </div>
-
     </div>
     {!! Form::close() !!}
   </div>

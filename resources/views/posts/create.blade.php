@@ -8,9 +8,7 @@
 
   <div class='row'>
     <div class='col-md-8 col-md-offest-2'>
-      <h1>
-        Create New Post
-      </h1>
+      <h1>Create New Post</h1>
       <hr>
 
       {!! Form::open(array('route' => 'posts.store')) !!}
