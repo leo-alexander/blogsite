@@ -4,6 +4,9 @@
 
 @section('content')
 
+
+@if (Auth::check())
+
   <div class='row'>
     {!! Form::model($post, ['route' => ['posts.update', $post->id], 'method' => 'PUT']) !!}
     <div class='col-md-8'>
@@ -47,5 +50,11 @@
     </div>
     {!! Form::close() !!}
   </div>
+
+  @else
+
+  <h1>Not authorised</h1>
+
+  @endif
 
 @endsection
