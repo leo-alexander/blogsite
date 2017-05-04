@@ -4,14 +4,14 @@
 
 @section('content')
             <div class="content">
-                <div class="title m-b-md">
-                    Welcome to Citified
+                <div class="title m-b-md col-md-8 col-md-offset-2">
+                    <h2>Welcome to Citified</h2>
                 </div>
-                <p>
+                <h5 class='col-md-8 col-md-offset-2'>
                   A blog exploring upcoming and proposed Urban Developments around Auckland
-                </p>
+                </h5>
                 <div class='row'>
-                  <div class='col-md-8'>
+                  <div class='col-md-8 col-md-offset-2'>
 
                     @foreach($posts as $post)
 
